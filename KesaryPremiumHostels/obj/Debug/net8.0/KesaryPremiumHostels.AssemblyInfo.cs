@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KesaryPremiumHostels")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a70cc739a9b8f132cb47e8b7abd4d267c0386b7d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c49bea46a12171a888033450f8be04d5ed66f13")]
 [assembly: System.Reflection.AssemblyProductAttribute("KesaryPremiumHostels")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KesaryPremiumHostels")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
