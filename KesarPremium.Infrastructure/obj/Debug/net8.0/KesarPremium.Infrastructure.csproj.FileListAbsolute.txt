@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\vismay .net practice\KesarPremimumBackend\KesarPremium.Infrastructure\obj\Debug\net8.0\KesarPremium.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\vismay .net practice\KesarPremimumBackend\KesarPremium.Infrastructure\obj\Debug\net8.0\KesarPremium.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\vismay .net practice\KesarPremimumBackend\KesarPremium.Infrastructure\obj\Debug\net8.0\KesarPremium.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\vismay .net practice\KesarPremimumBackend\KesarPremium.Infrastructure\obj\Debug\net8.0\KesarPremium.Infrastructure.AssemblyInfo.cs
+C:\Users\User\Desktop\vismay .net practice\KesarPremimumBackend\KesarPremium.Infrastructure\obj\Debug\net8.0\KesarPremium.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\vismay .net practice\KesarPremimumBackend\KesarPremium.Infrastructure\obj\Debug\net8.0\KesarPremium.Infrastructure.sourcelink.json
