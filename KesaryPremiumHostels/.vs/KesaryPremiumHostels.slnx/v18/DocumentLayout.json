@@ -3,14 +3,81 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesaryPremiumHostels\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80C2AB2D-35E9-4127-823D-97933C56A7A4}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E157EF4-1B29-8A62-3F00-56FC88550B2A}|..\\KesarPremium.Core\\KesarPremium.Core.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.core\\interfaces\\ihostelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C084CBF4-E492-4975-97FB-22F734E00C80}|..\\KesarPremium.Tests\\KesarPremium.Tests.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.tests\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E157EF4-1B29-8A62-3F00-56FC88550B2A}|..\\KesarPremium.Core\\KesarPremium.Core.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.core\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6D5525C-11FD-4157-9F74-661BD6E5E12C}|KesaryPremiumHostels.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarypremiumhostels\\kesarypremiumhostels.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{F6D5525C-11FD-4157-9F74-661BD6E5E12C}|KesaryPremiumHostels.csproj|solutionrelative:kesarypremiumhostels.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\services\\enquiryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\services\\hostelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\services\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\services\\authservices\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\services\\authservices\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\repositories\\hostelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\repositories\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\repositories\\enquiryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1FA4C2-7D8F-7F56-5D88-1C52914DE3F3}|KesaryPremiumHostels.API.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarypremiumhostels\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F1FA4C2-7D8F-7F56-5D88-1C52914DE3F3}|KesaryPremiumHostels.API.csproj|solutionrelative:middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE7030A-0F45-B951-C004-5EC61C81175D}|..\\KesarPremium.Infrastructure\\KesarPremium.Infrastructure.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88840C93-65A5-9585-2A18-843735C8BA6C}|..\\KesarPremium.Tests\\KesarPremium.Tests.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarpremium.tests\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1FA4C2-7D8F-7F56-5D88-1C52914DE3F3}|KesaryPremiumHostels.csproj|c:\\users\\user\\desktop\\vismay .net practice\\kesarpremimumbackend\\kesarypremiumhostels\\kesarypremiumhostels.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{6F1FA4C2-7D8F-7F56-5D88-1C52914DE3F3}|KesaryPremiumHostels.csproj|solutionrelative:kesarypremiumhostels.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
   "DocumentGroupContainers": [
@@ -185,6 +252,292 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IHostelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Core\\Interfaces\\IHostelRepository.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Core\\Interfaces\\IHostelRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Core\\Interfaces\\IHostelRepository.cs",
+              "RelativeToolTip": "..\\KesarPremium.Core\\Interfaces\\IHostelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:47:10.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Core\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Core\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Core\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "..\\KesarPremium.Core\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:46:43.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\AdminService.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Services\\AdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:45:17.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Services\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\NotificationService.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Services\\NotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:44:58.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnquiryService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\EnquiryService.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Services\\EnquiryService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\EnquiryService.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Services\\EnquiryService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAqwDoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:44:34.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Services\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\PaymentService.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Services\\PaymentService.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAqwIoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:44:11.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Services\\BookingService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\BookingService.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Services\\BookingService.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAqwHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:43:46.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\RoomService.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Services\\RoomService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\RoomService.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Services\\RoomService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAqwFMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:43:22.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HostelService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\HostelService.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Services\\HostelService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\HostelService.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Services\\HostelService.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAqwIUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:42:53.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\AuthServices\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Services\\AuthServices\\AuthService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\AuthServices\\AuthService.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Services\\AuthServices\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:40:22.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CacheService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\AuthServices\\CacheService.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Services\\AuthServices\\CacheService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\AuthServices\\CacheService.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Services\\AuthServices\\CacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:39:49.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\AuthServices\\TokenService.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Services\\AuthServices\\TokenService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Services\\AuthServices\\TokenService.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Services\\AuthServices\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:39:13.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Repositories\\Repository.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:36:53.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HostelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Repositories\\HostelRepository.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Repositories\\HostelRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Repositories\\HostelRepository.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Repositories\\HostelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALIAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:36:04.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:35:44.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RefreshTokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:35:04.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NotificationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Repositories\\NotificationRepository.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Repositories\\NotificationRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Repositories\\NotificationRepository.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Repositories\\NotificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwCIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:34:24.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EnquiryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Repositories\\EnquiryRepository.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Repositories\\EnquiryRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Repositories\\EnquiryRepository.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Repositories\\EnquiryRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:33:51.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Repositories\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Repositories\\PaymentRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Repositories\\PaymentRepository.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Repositories\\PaymentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:33:27.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Repositories\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Repositories\\BookingRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Repositories\\BookingRepository.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Repositories\\BookingRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:32:48.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Repositories\\RoomRepository.cs",
+              "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Repositories\\RoomRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Repositories\\RoomRepository.cs",
+              "RelativeToolTip": "..\\KesarPremium.Infrastructure\\Repositories\\RoomRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:31:50.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesaryPremiumHostels\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesaryPremiumHostels\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "Middleware\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:27:17.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Infrastructure\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "..\\KesarPremium.Infrastructure\\Data\\ApplicationDbContext.cs",
@@ -197,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 23,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesarPremium.Tests\\Class1.cs",
               "RelativeDocumentMoniker": "..\\KesarPremium.Tests\\Class1.cs",
@@ -210,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 24,
               "Title": "KesaryPremiumHostels.http",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesaryPremiumHostels\\KesaryPremiumHostels.http",
               "RelativeDocumentMoniker": "KesaryPremiumHostels.http",

@@ -26,6 +26,22 @@
           }
         }
       },
+      "Serilog/4.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Serilog.targets": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.6.2": {
         "type": "package",
         "dependencies": {
@@ -338,6 +354,35 @@
         "microsoft.openapi.nuspec"
       ]
     },
+    "Serilog/4.3.1": {
+      "sha512": "savYe7h5yRlkqBVOwP8cIRDOdqKiPmYCU4W87JH38sBmcKD5EBoXvQIw6bNEvZ/pTe1gsiye3VFCzBsoppGkXQ==",
+      "type": "package",
+      "path": "serilog/4.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Serilog.targets",
+        "buildTransitive/Serilog.targets",
+        "icon.png",
+        "lib/net10.0/Serilog.dll",
+        "lib/net10.0/Serilog.xml",
+        "lib/net462/Serilog.dll",
+        "lib/net462/Serilog.xml",
+        "lib/net471/Serilog.dll",
+        "lib/net471/Serilog.xml",
+        "lib/net6.0/Serilog.dll",
+        "lib/net6.0/Serilog.xml",
+        "lib/net8.0/Serilog.dll",
+        "lib/net8.0/Serilog.xml",
+        "lib/net9.0/Serilog.dll",
+        "lib/net9.0/Serilog.xml",
+        "lib/netstandard2.0/Serilog.dll",
+        "lib/netstandard2.0/Serilog.xml",
+        "serilog.4.3.1.nupkg.sha512",
+        "serilog.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.6.2": {
       "sha512": "+NB4UYVYN6AhDSjW0IJAd1AGD8V33gemFNLPaxKTtPkHB+HaKAKf9MGAEUPivEWvqeQfcKIw8lJaHq6LHljRuw==",
       "type": "package",
@@ -443,6 +488,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Serilog >= 4.3.1",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -453,9 +499,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesaryPremiumHostels\\KesaryPremiumHostels.csproj",
-      "projectName": "KesaryPremiumHostels",
-      "projectPath": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesaryPremiumHostels\\KesaryPremiumHostels.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesaryPremiumHostels\\KesaryPremiumHostels.API.csproj",
+      "projectName": "KesaryPremiumHostels.API",
+      "projectPath": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesaryPremiumHostels\\KesaryPremiumHostels.API.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesaryPremiumHostels\\obj\\",
       "projectStyle": "PackageReference",
@@ -497,6 +543,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Serilog": {
+            "target": "Package",
+            "version": "[4.3.1, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.6.2, )"

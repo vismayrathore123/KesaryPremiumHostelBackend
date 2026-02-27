@@ -2,5 +2,5 @@
   <Project Path="../KesarPremium.Core/KesarPremium.Core.csproj" />
   <Project Path="../KesarPremium.Infrastructure/KesarPremium.Infrastructure.csproj" />
   <Project Path="../KesarPremium.Tests/KesarPremium.Tests.csproj" />
-  <Project Path="KesaryPremiumHostels.csproj" />
+  <Project Path="KesaryPremiumHostels.API.csproj" />
 </Solution>

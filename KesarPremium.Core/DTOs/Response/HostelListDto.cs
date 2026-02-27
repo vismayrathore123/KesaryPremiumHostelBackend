@@ -22,4 +22,4 @@ namespace KesarPremium.Core.DTOs.Response
         public string? WhatsAppNumber { get; set; }
     }
 }
-}
+
