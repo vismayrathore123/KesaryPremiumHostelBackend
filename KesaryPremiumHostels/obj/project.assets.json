@@ -499,9 +499,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesaryPremiumHostels\\KesaryPremiumHostels.API.csproj",
-      "projectName": "KesaryPremiumHostels.API",
-      "projectPath": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesaryPremiumHostels\\KesaryPremiumHostels.API.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesaryPremiumHostels\\KesarPremium.API.csproj",
+      "projectName": "KesarPremium.API",
+      "projectPath": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesaryPremiumHostels\\KesarPremium.API.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\Desktop\\vismay .net practice\\KesarPremimumBackend\\KesaryPremiumHostels\\obj\\",
       "projectStyle": "PackageReference",

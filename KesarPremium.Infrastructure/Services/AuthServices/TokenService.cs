@@ -1,4 +1,5 @@
 ﻿using KesarPremium.Core.Entities;
+using KesarPremium.Core.Interfaces.IServices;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;

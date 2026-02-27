@@ -1,5 +1,5 @@
 
-namespace KesaryPremiumHostels
+namespace KesarPremium.API
 {
     public class Program
     {

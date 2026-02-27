@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KesarPremium.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36c7312d3cb623ee5dd46d378bc3114f19d54561")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+075c4aa2832e0601571681e5459bb6f9c8063441")]
 [assembly: System.Reflection.AssemblyProductAttribute("KesarPremium.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KesarPremium.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

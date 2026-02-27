@@ -1,6 +1,8 @@
 ﻿using KesarPremium.Core.DTOs.Response;
 using KesarPremium.Core.Entities;
+using KesarPremium.Core.Interfaces.IRepositories;
 using KesarPremium.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,7 +42,7 @@ namespace KesarPremium.Infrastructure.Repositories
                 room.AvailableBeds--;
                 room.UpdatedAt = DateTime.UtcNow;
                 await _db.SaveChangesAsync();
-                return true;s
+                return true;
             }
 
             public async Task<bool> IncreaseBedAsync(int roomId)

@@ -1,0 +1,16 @@
+﻿using KesarPremium.Core.DTOs.Response;
+using KesarPremium.Core.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace KesarPremium.Core.Interfaces.IRepositories
+{
+    public interface IEnquiryRepository : IRepository<Enquiry>
+    {
+        Task<List<EnquiryDto>> GetAdminEnquiriesAsync(string? status);
+        Task<List<EnquiryDto>> GetByUserAsync(int userId);
+    }
+}

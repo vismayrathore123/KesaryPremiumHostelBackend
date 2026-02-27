@@ -1,6 +1,7 @@
+using KesaryPremiumHostels;
 using Microsoft.AspNetCore.Mvc;
 
-namespace KesaryPremiumHostels.Controllers
+namespace KesarPremium.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

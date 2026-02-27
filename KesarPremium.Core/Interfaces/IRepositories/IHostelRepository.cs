@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KesarPremium.Core.Interfaces
+namespace KesarPremium.Core.Interfaces.IRepositories
 {
     public interface IHostelRepository : IRepository<Hostel>
     {

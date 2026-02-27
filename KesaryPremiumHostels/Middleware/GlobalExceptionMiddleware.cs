@@ -1,8 +1,9 @@
 ﻿using System.Net;
 using System.Text.Json;
 using Serilog;
+using KesarPremium.Core.DTOs.Response;
 
-namespace KesaryPremiumHostels.API.Middleware;
+namespace KesarPremium.API.Middleware;
 
 public class GlobalExceptionMiddleware
 {
@@ -38,8 +39,7 @@ public class GlobalExceptionMiddleware
 
         context.Response.StatusCode = (int)statusCode;
 
-        var response = ApiResponse<object>.Fail(message, ex.Message);
-        var json = JsonSerializer.Serialize(response, new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase });
+        var response = ApiResponse<object>.Fail(message, ex.Message); var json = JsonSerializer.Serialize(response, new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase });
 
         await context.Response.WriteAsync(json);
     }

@@ -1,5 +1,7 @@
 ﻿using KesarPremium.Core.DTOs.Response;
+using KesarPremium.Core.Interfaces.IServices;
 using KesarPremium.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;

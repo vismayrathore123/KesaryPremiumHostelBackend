@@ -1,7 +1,9 @@
 ﻿using KesarPremium.Core.DTOs.Request;
 using KesarPremium.Core.DTOs.Response;
 using KesarPremium.Core.Entities;
+using KesarPremium.Core.Interfaces.IRepositories;
 using KesarPremium.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
