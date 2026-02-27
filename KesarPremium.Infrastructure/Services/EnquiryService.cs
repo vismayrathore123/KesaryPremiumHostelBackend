@@ -1,6 +1,8 @@
 ﻿using KesarPremium.Core.DTOs.Request;
 using KesarPremium.Core.DTOs.Response;
 using KesarPremium.Core.Entities;
+using KesarPremium.Core.Interfaces.IRepositories;
+using KesarPremium.Core.Interfaces.IServices;
 using KesarPremium.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
@@ -12,7 +14,6 @@ namespace KesarPremium.Infrastructure.Services
 {
     public class EnquiryService : IEnquiryService
     {
-        private readonly IEnquiryRepository _repo;
 
         public EnquiryService(IEnquiryRepository repo) => _repo = repo;
 

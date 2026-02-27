@@ -1,4 +1,4 @@
-using KesaryPremiumHostels;
+using KesarPremium.API;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KesarPremium.API.Controllers
