@@ -2,6 +2,8 @@
 using KesarPremium.Core.DTOs.Response;
 using KesarPremium.Core.Entities;
 using KesarPremium.Core.Interfaces;
+using KesarPremium.Core.Interfaces.IRepositories;
+using KesarPremium.Core.Interfaces.IServices;
 using KesarPremium.Infrastructure.Data;
 using KesarPremium.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
@@ -249,3 +251,4 @@ public class HostelServiceTests
 
     public void Dispose() => _db.Dispose();
 }
+    

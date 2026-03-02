@@ -3,18 +3,14 @@ using KesarPremium.Core.DTOs.Response;
 using KesarPremium.Core.Entities;
 using KesarPremium.Core.Interfaces.IRepositories;
 using KesarPremium.Core.Interfaces.IServices;
-using KesarPremium.Infrastructure.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace KesarPremium.Infrastructure.Services
 {
     public class EnquiryService : IEnquiryService
     {
 
+        private readonly IEnquiryRepository _repo;
         public EnquiryService(IEnquiryRepository repo) => _repo = repo;
 
         public async Task<ApiResponse<bool>> CreateAsync(int userId, CreateEnquiryRequest req)

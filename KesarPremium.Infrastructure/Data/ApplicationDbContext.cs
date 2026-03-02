@@ -1,8 +1,5 @@
 ﻿using KesarPremium.Core.Entities;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Data;
-using System.Reflection.Emit;
 
 namespace KesarPremium.Infrastructure.Data;
 
@@ -104,5 +101,168 @@ public class ApplicationDbContext : DbContext
         // PricingPlan computed column ignored (handled in C#)
         modelBuilder.Entity<PricingPlan>()
             .Ignore(p => p.FinalRent);
+
+        // ── FIX: Prevent cascade delete cycles ──────────────────────────────
+        // SQL Server does not allow multiple cascade paths to the same table.
+        // All relationships below use NoAction so SQL Server doesn't complain.
+        // EF Core / application code handles cleanup instead.
+
+        // User → Bookings
+        modelBuilder.Entity<Booking>()
+            .HasOne(b => b.User)
+            .WithMany(u => u.Bookings)
+            .HasForeignKey(b => b.UserId)
+            .OnDelete(DeleteBehavior.NoAction);
+
+        // User → Payments (via Booking → User creates a cycle)
+        modelBuilder.Entity<Payment>()
+            .HasOne(p => p.User)
+            .WithMany()
+            .HasForeignKey(p => p.UserId)
+            .OnDelete(DeleteBehavior.NoAction);
+
+        // Booking → Payments
+        modelBuilder.Entity<Payment>()
+            .HasOne(p => p.Booking)
+            .WithMany(b => b.Payments)
+            .HasForeignKey(p => p.BookingId)
+            .OnDelete(DeleteBehavior.NoAction);
+
+        // User → Enquiries
+        modelBuilder.Entity<Enquiry>()
+            .HasOne(e => e.User)
+            .WithMany(u => u.Enquiries)
+            .HasForeignKey(e => e.UserId)
+            .OnDelete(DeleteBehavior.NoAction);
+
+        // User → Notifications
+        modelBuilder.Entity<Notification>()
+            .HasOne(n => n.User)
+            .WithMany(u => u.Notifications)
+            .HasForeignKey(n => n.UserId)
+            .OnDelete(DeleteBehavior.NoAction);
+
+        // User → RefreshTokens
+        modelBuilder.Entity<RefreshToken>()
+            .HasOne(r => r.User)
+            .WithMany(u => u.RefreshTokens)
+            .HasForeignKey(r => r.UserId)
+            .OnDelete(DeleteBehavior.NoAction);
+
+        // ── Explicit Primary Keys (non-convention names) ─────────────────────
+        // EF Core convention only auto-detects "Id" or "ClassNameId".
+        // Everything else must be declared explicitly here.
+
+        modelBuilder.Entity<AuditLog>()
+            .HasKey(a => a.LogId);
+
+        modelBuilder.Entity<SharedAreaImage>()
+            .HasKey(s => s.ImageId);
+
+        modelBuilder.Entity<HostelImage>()
+            .HasKey(i => i.ImageId);
+
+        modelBuilder.Entity<RefreshToken>()
+            .HasKey(r => r.TokenId);
+
+        modelBuilder.Entity<Location>()
+            .HasKey(l => l.LocationId);
+
+        modelBuilder.Entity<HostelCategory>()
+            .HasKey(c => c.CategoryId);
+
+        modelBuilder.Entity<Role>()
+            .HasKey(r => r.RoleId);
+
+        modelBuilder.Entity<User>()
+            .HasKey(u => u.UserId);
+
+        modelBuilder.Entity<Hostel>()
+            .HasKey(h => h.HostelId);
+
+        modelBuilder.Entity<Facility>()
+            .HasKey(f => f.FacilityId);
+
+        modelBuilder.Entity<HostelFacility>()
+            .HasKey(hf => hf.HostelFacilityId);
+
+        modelBuilder.Entity<RoomType>()
+            .HasKey(r => r.RoomTypeId);
+
+        modelBuilder.Entity<Room>()
+            .HasKey(r => r.RoomId);
+
+        modelBuilder.Entity<PricingPlan>()
+            .HasKey(p => p.PlanId);
+
+        modelBuilder.Entity<Booking>()
+            .HasKey(b => b.BookingId);
+
+        modelBuilder.Entity<Payment>()
+            .HasKey(p => p.PaymentId);
+
+        modelBuilder.Entity<Enquiry>()
+            .HasKey(e => e.EnquiryId);
+
+        modelBuilder.Entity<SharedArea>()
+            .HasKey(s => s.SharedAreaId);
+
+        modelBuilder.Entity<Brochure>()
+            .HasKey(b => b.BrochureId);
+
+        modelBuilder.Entity<Notification>()
+            .HasKey(n => n.NotificationId);
+
+        // AuditLog → UserId is nullable int, no navigation property
+        modelBuilder.Entity<AuditLog>()
+            .Property(a => a.UserId)
+            .IsRequired(false);
+
+        // Notification → UserId is nullable
+        modelBuilder.Entity<Notification>()
+            .Property(n => n.UserId)
+            .IsRequired(false);
+
+        // Hostel → Rooms
+        modelBuilder.Entity<Room>()
+            .HasOne(r => r.Hostel)
+            .WithMany(h => h.Rooms)
+            .HasForeignKey(r => r.HostelId)
+            .OnDelete(DeleteBehavior.NoAction);
+
+        // Hostel → HostelImages
+        modelBuilder.Entity<HostelImage>()
+            .HasOne(i => i.Hostel)
+            .WithMany(h => h.Images)
+            .HasForeignKey(i => i.HostelId)
+            .OnDelete(DeleteBehavior.NoAction);
+
+        // Hostel → HostelFacilities
+        modelBuilder.Entity<HostelFacility>()
+            .HasOne(hf => hf.Hostel)
+            .WithMany(h => h.HostelFacilities)
+            .HasForeignKey(hf => hf.HostelId)
+            .OnDelete(DeleteBehavior.NoAction);
+
+        // Hostel → SharedAreas
+        modelBuilder.Entity<SharedArea>()
+            .HasOne(s => s.Hostel)
+            .WithMany(h => h.SharedAreas)
+            .HasForeignKey(s => s.HostelId)
+            .OnDelete(DeleteBehavior.NoAction);
+
+        // Room → Bookings
+        modelBuilder.Entity<Booking>()
+            .HasOne(b => b.Room)
+            .WithMany(r => r.Bookings)
+            .HasForeignKey(b => b.RoomId)
+            .OnDelete(DeleteBehavior.NoAction);
+
+        // Hostel → Enquiries
+        modelBuilder.Entity<Enquiry>()
+            .HasOne(e => e.Hostel)
+            .WithMany()
+            .HasForeignKey(e => e.HostelId)
+            .OnDelete(DeleteBehavior.NoAction);
     }
 }

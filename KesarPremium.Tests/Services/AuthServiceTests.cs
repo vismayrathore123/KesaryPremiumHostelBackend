@@ -1,7 +1,10 @@
 ﻿using KesarPremium.Core.DTOs.Request;
 using KesarPremium.Core.Entities;
 using KesarPremium.Core.Interfaces;
+using KesarPremium.Core.Interfaces.IRepositories;
+using KesarPremium.Core.Interfaces.IServices;
 using KesarPremium.Infrastructure.Services;
+using KesarPremium.Infrastructure.Services.AuthServices;
 using Microsoft.Extensions.Configuration;
 using Moq;
 using Xunit;

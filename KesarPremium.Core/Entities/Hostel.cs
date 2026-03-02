@@ -1,4 +1,6 @@
-﻿namespace KesarPremium.Core.Entities;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace KesarPremium.Core.Entities;
 
 public class Location
 {
@@ -18,6 +20,7 @@ public class Location
 
 public class HostelCategory
 {
+    [Key]
     public int CategoryId { get; set; }
     public string CategoryName { get; set; } = string.Empty; // Boys, Girls, Independent
     public string? Description { get; set; }

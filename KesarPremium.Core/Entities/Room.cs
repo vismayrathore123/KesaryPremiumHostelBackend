@@ -1,4 +1,6 @@
-﻿namespace KesarPremium.Core.Entities;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace KesarPremium.Core.Entities;
 
 public class RoomType
 {
@@ -33,6 +35,7 @@ public class Room
 
 public class HostelImage
 {
+    [Key]
     public int ImageId { get; set; }
     public int HostelId { get; set; }
     public int? RoomId { get; set; }

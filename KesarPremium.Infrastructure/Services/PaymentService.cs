@@ -61,7 +61,7 @@ namespace KesarPremium.Infrastructure.Services
                 var webhookSecret = _config["Stripe:WebhookSecret"]!;
                 var stripeEvent = EventUtility.ConstructEvent(payload, signature, webhookSecret);
 
-                if (stripeEvent.Type == Events.PaymentIntentSucceeded)
+                if (stripeEvent.Type == EventTypes.PaymentIntentSucceeded)
                 {
                     var intent = (PaymentIntent)stripeEvent.Data.Object;
                     var bookingId = int.Parse(intent.Metadata["bookingId"]);

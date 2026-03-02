@@ -1,7 +1,10 @@
-﻿namespace KesarPremium.Core.Entities;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace KesarPremium.Core.Entities;
 
 public class PricingPlan
 {
+    
     public int PlanId { get; set; }
     public int HostelId { get; set; }
     public int RoomTypeId { get; set; }
@@ -21,6 +24,7 @@ public class PricingPlan
 
 public class Booking
 {
+    
     public int BookingId { get; set; }
     public int UserId { get; set; }
     public int RoomId { get; set; }
@@ -45,6 +49,7 @@ public class Booking
 
 public class Payment
 {
+   
     public int PaymentId { get; set; }
     public int BookingId { get; set; }
     public int UserId { get; set; }
@@ -64,6 +69,7 @@ public class Payment
 
 public class Enquiry
 {
+  
     public int EnquiryId { get; set; }
     public int UserId { get; set; }
     public int? HostelId { get; set; }
@@ -81,6 +87,7 @@ public class Enquiry
 
 public class SharedArea
 {
+  
     public int SharedAreaId { get; set; }
     public int HostelId { get; set; }
     public string AreaName { get; set; } = string.Empty;
@@ -95,6 +102,7 @@ public class SharedArea
 
 public class SharedAreaImage
 {
+  
     public int ImageId { get; set; }
     public int SharedAreaId { get; set; }
     public string ImageUrl { get; set; } = string.Empty;
@@ -106,6 +114,7 @@ public class SharedAreaImage
 
 public class Brochure
 {
+ 
     public int BrochureId { get; set; }
     public int HostelId { get; set; }
     public string BrochureName { get; set; } = string.Empty;
@@ -120,6 +129,7 @@ public class Brochure
 
 public class Notification
 {
+    
     public int NotificationId { get; set; }
     public int? UserId { get; set; }
     public string Title { get; set; } = string.Empty;
@@ -134,6 +144,7 @@ public class Notification
 
 public class RefreshToken
 {
+    
     public int TokenId { get; set; }
     public int UserId { get; set; }
     public string Token { get; set; } = string.Empty;
@@ -146,6 +157,7 @@ public class RefreshToken
 
 public class AuditLog
 {
+    
     public int LogId { get; set; }
     public int? UserId { get; set; }
     public string Action { get; set; } = string.Empty;
